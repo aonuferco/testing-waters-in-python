@@ -146,4 +146,4 @@ def flip_player():
 
 # start
 
-play_game()
+#play_game()
