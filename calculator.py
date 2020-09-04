@@ -28,6 +28,7 @@ def clear():
 root = Tk()
 root.title("python Calculator")
 root.geometry("380x295")
+root.resizable(False, False)
 #entry
 equation = StringVar()
 expression_entry = Entry(root, textvariable=equation, bd=5, width=55).grid(row=0, column=0, columnspan=4, padx=10,
